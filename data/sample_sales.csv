@@ -1,0 +1,13 @@
+date,product,category,units_sold,revenue,region
+2026-06-01,Python Course,Education,45,22500,North
+2026-06-01,ML Bootcamp,Education,30,45000,South
+2026-06-02,Python Course,Education,38,19000,East
+2026-06-02,Web Dev Kit,Tools,20,10000,West
+2026-06-03,ML Bootcamp,Education,25,37500,North
+2026-06-03,Data Bundle,Tools,15,7500,South
+2026-06-04,Python Course,Education,52,26000,East
+2026-06-04,ML Bootcamp,Education,40,60000,West
+2026-06-05,Web Dev Kit,Tools,18,9000,North
+2026-06-05,Data Bundle,Tools,22,11000,South
+2026-06-06,Python Course,Education,60,30000,East
+2026-06-06,ML Bootcamp,Education,35,52500,West
