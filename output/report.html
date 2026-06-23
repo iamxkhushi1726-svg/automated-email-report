@@ -1,0 +1,218 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Sales Report</title>
+
+      <style>
+        body {
+          margin: 0;
+          padding: 0;
+          background-color: #0f172a;
+          font-family: Arial, sans-serif;
+          color: #e5e7eb;
+        }
+
+        .container {
+          max-width: 900px;
+          margin: 30px auto;
+          background: #111827;
+          padding: 25px;
+          border-radius: 12px;
+          box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+        }
+
+        h1 {
+          text-align: center;
+          font-size: 22px;
+          margin-bottom: 5px;
+          color: #ffffff;
+        }
+
+        .sub {
+          text-align: center;
+          color: #9ca3af;
+          margin-bottom: 25px;
+          font-size: 13px;
+        }
+
+        .metrics {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 15px;
+          margin-bottom: 25px;
+        }
+
+        .card {
+          background: #1f2937;
+          padding: 15px;
+          border-radius: 10px;
+          text-align: center;
+        }
+
+        .value {
+          font-size: 18px;
+          font-weight: bold;
+          color: #60a5fa;
+        }
+
+        .label {
+          font-size: 12px;
+          color: #9ca3af;
+          margin-top: 5px;
+        }
+
+        h2 {
+          margin-top: 25px;
+          font-size: 16px;
+          border-left: 4px solid #3b82f6;
+          padding-left: 10px;
+        }
+
+        .highlight {
+          margin: 5px 0;
+          color: #d1d5db;
+        }
+
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 10px;
+          font-size: 13px;
+          overflow: hidden;
+          border-radius: 8px;
+        }
+
+        th {
+          background: #1f2937;
+          color: #ffffff;
+          text-align: left;
+          padding: 10px;
+        }
+
+        td {
+          padding: 10px;
+          border-bottom: 1px solid #1f2937;
+          color: #d1d5db;
+        }
+
+        tr:hover {
+          background-color: #1f2937;
+        }
+
+        .footer {
+          text-align: center;
+          font-size: 11px;
+          color: #6b7280;
+          margin-top: 25px;
+        }
+      </style>
+    </head>
+
+    <body>
+      <div class="container">
+
+        <h1>Sales Performance Report</h1>
+        <div class="sub">Generated on June 23, 2026 at 10:43</div>
+
+        <div class="metrics">
+          <div class="card">
+            <div class="value">₹330,000</div>
+            <div class="label">Total Revenue</div>
+          </div>
+
+          <div class="card">
+            <div class="value">400</div>
+            <div class="label">Total Units Sold</div>
+          </div>
+
+          <div class="card">
+            <div class="value">₹55,000</div>
+            <div class="label">Avg Daily Revenue</div>
+          </div>
+        </div>
+
+        <h2>Highlights</h2>
+        <div class="highlight">Top Product: ML Bootcamp</div>
+        <div class="highlight">Top Region: West</div>
+
+        <h2>Product Breakdown</h2>
+        <table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>product</th>
+      <th>Total_Revenue</th>
+      <th>Total_Units</th>
+      <th>Avg_Revenue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ML Bootcamp</td>
+      <td>₹195,000</td>
+      <td>130</td>
+      <td>₹48,750</td>
+    </tr>
+    <tr>
+      <td>Python Course</td>
+      <td>₹97,500</td>
+      <td>195</td>
+      <td>₹24,375</td>
+    </tr>
+    <tr>
+      <td>Web Dev Kit</td>
+      <td>₹19,000</td>
+      <td>38</td>
+      <td>₹9,500</td>
+    </tr>
+    <tr>
+      <td>Data Bundle</td>
+      <td>₹18,500</td>
+      <td>37</td>
+      <td>₹9,250</td>
+    </tr>
+  </tbody>
+</table>
+
+        <h2>Region Breakdown</h2>
+        <table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>region</th>
+      <th>Total_Revenue</th>
+      <th>Total_Units</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>West</td>
+      <td>₹122,500</td>
+      <td>95</td>
+    </tr>
+    <tr>
+      <td>East</td>
+      <td>₹75,000</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <td>North</td>
+      <td>₹69,000</td>
+      <td>88</td>
+    </tr>
+    <tr>
+      <td>South</td>
+      <td>₹63,500</td>
+      <td>67</td>
+    </tr>
+  </tbody>
+</table>
+
+        <div class="footer">
+          Automated Sales Report · Python Analytics System
+        </div>
+
+      </div>
+    </body>
+    </html>
+    
